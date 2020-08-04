@@ -22,7 +22,7 @@ npm start
 
 - Service runs on http://localhost:8080
 
-- To test data retrieval:
+- To test data retrieval locally:
 
 ```shell
 curl --location --request POST 'http://localhost:8080/api/data' \
@@ -33,6 +33,13 @@ curl --location --request POST 'http://localhost:8080/api/data' \
 ```
 
 - JSON response will be sorted by lastname
+
+## Build for deployment
+
+```shell
+npm run build
+```
+
 
 ## Tests
 
@@ -46,7 +53,7 @@ This will also run the coverage which is stored in a folder named coverage
 
 ## Developer Documentation
 
-Creates documentation from the code comments
+Creates documentation from the code comments. Build for deployment first.
 
 ```shell
 npm run docs
