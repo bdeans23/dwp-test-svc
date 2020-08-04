@@ -12,12 +12,24 @@ coordinates are within 50 miles of London.
 
 ## Running
 
-Install Node.js
-Install npm
+- Install Node.js
+- Install npm
 
 ```shell
 npm install
 npm start
+```
+
+- Service runs on http://localhost:8080
+
+- To test data retrieval:
+
+```shell
+curl --location --request POST 'http://localhost:8080/api/data' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+	"cityName": "London"
+}'
 ```
 
 ## Tests
