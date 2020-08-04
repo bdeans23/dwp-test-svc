@@ -10,6 +10,13 @@ coordinates are within 50 miles of London.
   - Config settings
   API_URL - URL for API  
 
+## Running
+
+Install npm
+```shell
+npm start
+```
+
 ## Tests
 
 ### Unit tests
