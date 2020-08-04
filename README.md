@@ -12,8 +12,11 @@ coordinates are within 50 miles of London.
 
 ## Running
 
+Install Node.js
 Install npm
+
 ```shell
+npm install
 npm start
 ```
 
