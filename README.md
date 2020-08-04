@@ -32,6 +32,8 @@ curl --location --request POST 'http://localhost:8080/api/data' \
 }'
 ```
 
+- JSON response will be sorted by lastname
+
 ## Tests
 
 ### Unit tests
